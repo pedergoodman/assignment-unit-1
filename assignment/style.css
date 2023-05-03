@@ -4,7 +4,6 @@
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
-
 /* Change the font-family of your list */
 
 body {
@@ -17,6 +16,7 @@ header {
 
 footer {
     background-color: darkslategray;
+    padding: 5px;
 }
 
 h1 {
@@ -26,9 +26,23 @@ h1 {
 P {
     color: white;
     font-style: italic;
+    padding-left: 15px;
 }
 
 img {
     width: 400px;
-    align-content: center;
+    border: 2px;
+}
+
+Ul {
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.top-bullet {
+    padding-top: 12px;
+}
+
+.second-bullet {
+    padding-top: 3px;
 }
