@@ -1,7 +1,6 @@
 /* Give your page a fun background color */
 /* Make the header and footer a different color from the background */
 /* Align the h1 containing your name in the center of the header*/
-
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
@@ -24,7 +23,10 @@ h1 {
     text-align: center;
 }
 
-
+P {
+    color: white;
+    font-style: italic;
+}
 
 img {
     width: 400px;
